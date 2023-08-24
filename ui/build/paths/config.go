@@ -106,6 +106,7 @@ var Configuration = map[string]PathConfig{
 	"pahole":      Allowed,
 	"perl":        Log,
 	"pstree":      Allowed,
+	"realpath":    Allowed,
 	"rsync":       Allowed,
 	"sh":          Allowed,
 	"stubby":      Allowed,
