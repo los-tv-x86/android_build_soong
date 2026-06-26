@@ -62,6 +62,27 @@ var androidmk_denylist []string = []string{
 var androidmk_allowlist []string = []string{
 	"bootable/deprecated-ota/updater/Android.mk",
 	"external/mesa3d/android/Android.mk",
+	"bootable/aaropa/Android.mk",
+	"external/alsa-lib/android/Android.mk",
+	"external/alsa-utils/android/Android.mk",
+	"external/dmidecode/Android.mk",
+	"external/drm_gralloc/Android.mk",
+	"external/drmfb-composer/Android.mk",
+	"external/efibootmgr/src/Android.mk",
+	"external/efivar/src/Android.mk",
+	"external/evtest/Android.mk",
+	"external/ffmpeg/Android.mk",
+	"external/fmtlib11/support/Android.mk",
+	"external/gbm_gralloc/Android.mk",
+	"external/hcitools/Android.mk",
+	"external/kernel-drivers-zenith/Android.mk",
+	"external/kernel-drivers/Android.mk",
+	"external/minigbm/gbm_mesa_driver/Android.mk",
+	"external/s2tc/Android.mk",
+	"external/stagefright-plugins/Android.mk",
+	"external/thermal_daemon/Android.mk",
+	"external/tree/Android.mk",
+	"external/iptsd/Android.mk",
 }
 
 func getAllLines(ctx Context, filename string) []string {
